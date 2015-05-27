@@ -11,4 +11,5 @@ y los métodos a estudiar son:
 1. Interpolación,
 2. Análisis de Fourier,
 3. Diferenciación e integración numéricas,
-4. 
+4. Ecuaciones diferenciales ordinarias y parciales
+5. Método de MonteCarlo
