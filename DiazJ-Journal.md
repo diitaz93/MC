@@ -13,3 +13,9 @@ y los métodos a estudiar son:
 3. Diferenciación e integración numéricas,
 4. Ecuaciones diferenciales ordinarias y parciales
 5. Método de MonteCarlo
+
+#Segunda Clase 2-Jun-2015
+Expresiones Regulares
+1. '^.... '
+2. curl http://pi.karmona.com/|sed 's/<BR>//g' > pi.txt
+
