@@ -19,3 +19,8 @@ Expresiones Regulares
 1. '^.... '
 2. curl http://pi.karmona.com/|sed 's/<BR>//g' > pi.txt
 
+# GNUPlot
++ set datafle separator ""
++ plot "archivo.csv" using C1:C2
++ type set to '<aqua/dumb/etc>'
+
