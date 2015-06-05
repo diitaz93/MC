@@ -38,6 +38,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c02_hello_world.c
 ```
 /*
@@ -82,6 +83,7 @@ int main(void)
     return 42;
 }
 
+```
 #Nombre del Archivo: c03_data_types.c
 ```
 /*
@@ -130,6 +132,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c04_arithmetic_operators.c
 ```
 /*
@@ -182,6 +185,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c05_arithmetic_operators.c
 ```
 /*
@@ -231,6 +235,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c06_arithmetic_operators.c
 ```
 /*
@@ -281,6 +286,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c07_arithmetic_operators.c
 ```
 /*
@@ -330,6 +336,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c08_logical_operators.c
 ```
 /*
@@ -385,6 +392,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c09_bit_operators.c
 ```
 /*
@@ -445,6 +453,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c10_logical_vs_bit_operators.c
 ```
 /*
@@ -505,6 +514,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c11_bit_left_shift.c
 ```
 /*
@@ -563,6 +573,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c12_bit_right_shift.c
 ```
 /*
@@ -621,6 +632,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c13_arithmetic_left_shift.c
 ```
 /*
@@ -683,6 +695,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c14_arithmetic_right_shift.c
 ```
 /*
@@ -743,6 +756,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c15_relational_operators.c
 ```
 /*
@@ -804,6 +818,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c16_asignment_operators.c
 ```
 /*
@@ -863,6 +878,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c17_ternary_operator.c
 ```
 /*
@@ -911,6 +927,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c18_ternary_operator.c
 ```
 /*
@@ -955,6 +972,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c19_if_then.c
 ```
 /*
@@ -1001,6 +1019,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c20_if_then_else.c
 ```
 /*
@@ -1050,6 +1069,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c21_nested_if.c
 ```
 /*
@@ -1102,6 +1122,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c22_while_loop.c
 ```
 /*
@@ -1149,6 +1170,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c23_while_loop.c
 ```
 /*
@@ -1195,6 +1217,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c24_do_while_loop.c
 ```
 /*
@@ -1242,6 +1265,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c25_do_while_loop.c
 ```
 /*
@@ -1288,6 +1312,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c26_for_loop.c
 ```
 /*
@@ -1334,6 +1359,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c27_for_loop.c
 ```
 /*
@@ -1380,6 +1406,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c28_for_loop.c
 ```
 /*
@@ -1426,6 +1453,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c29_break.c
 ```
 /*
@@ -1474,6 +1502,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c30_continue.c
 ```
 /*
@@ -1522,6 +1551,7 @@ int main(void)
     return 0;
 }
 
+```
 #Nombre del Archivo: c31_goto.c
 ```
 /*
@@ -1565,6 +1595,7 @@ REPEAT:
     return 0;
 }
 
+```
 #Nombre del Archivo: c32_goto.c
 ```
 /*
@@ -1646,6 +1677,7 @@ EXIT:
     return 1;
 }
 
+```
 #Nombre del Archivo: c33_switch.c
 ```
 /*
@@ -1698,6 +1730,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
+```
 #Nombre del Archivo: c34_switch.c
 ```
 /*
@@ -1753,6 +1786,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
+```
 #Nombre del Archivo: c35_switch.c
 ```
 /*
@@ -1810,6 +1844,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
+```
 #Nombre del Archivo: c36_switch.c
 ```
 /*
@@ -1867,6 +1902,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
+```
 #Nombre del Archivo: c37_arrays.c
 ```
 /*
@@ -1921,6 +1957,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
+```
 #Nombre del Archivo: c38_arrays.c
 ```
 /*
@@ -1969,6 +2006,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
+```
 #Nombre del Archivo: c39_arrays.c
 ```
 /*
@@ -2024,6 +2062,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
+```
 #Nombre del Archivo: c40_arrays.c
 ```
 /*
@@ -2080,6 +2119,7 @@ int main(int argc, char **argv)
 }
 
 
+```
 #Nombre del Archivo: c41_arrays.c
 ```
 /*
@@ -2132,6 +2172,7 @@ int main(int argc, char **argv)
 }
 
 
+```
 #Nombre del Archivo: c42_struct.c
 ```
 /*
@@ -2194,6 +2235,7 @@ int main(int argc, char **argv) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c43_struct.c
 ```
 /*
@@ -2256,6 +2298,7 @@ int main(int argc, char **argv) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c44_struct.c
 ```
 /*
@@ -2314,6 +2357,7 @@ int main(int argc, char**argv)
     printf("sizeof struct{int, char, int} is %d\n", (int)sizeof(t_point3));
     return 0;
 }
+```
 #Nombre del Archivo: c45_struct.c
 ```
 /*
@@ -2374,6 +2418,7 @@ int main(int argc, char**argv)
 
     return 0;
 }
+```
 #Nombre del Archivo: c46_struct.c
 ```
 /*
@@ -2456,6 +2501,7 @@ int main(int argc, char**argv)
 
     return 0;
 }
+```
 #Nombre del Archivo: c47_union.c
 ```
 /*
@@ -2516,6 +2562,7 @@ int main(int argc, char**argv)
 
     return 0;
 }
+```
 #Nombre del Archivo: c48_union.c
 ```
 /*
@@ -2575,6 +2622,7 @@ int main(int argc, char**argv)
     printf("%x\n", u.int_value);
     return 0;
 }
+```
 #Nombre del Archivo: c49_bitfields.c
 ```
 /*
@@ -2631,6 +2679,7 @@ int main( ) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c50_bitfields.c
 ```
 /*
@@ -2698,6 +2747,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c51_pointers.c
 ```
 /*
@@ -2747,6 +2797,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c52_pointers.c
 ```
 /*
@@ -2795,6 +2846,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c53_pointers.c
 ```
 /*
@@ -2842,6 +2894,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c54_pointers.c
 ```
 /*
@@ -2896,6 +2949,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c55_pointers.c
 ```
 /*
@@ -2952,6 +3006,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c56_pointers.c
 ```
 /*
@@ -3009,6 +3064,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c57_pointers_and_arrays.c
 ```
 /*
@@ -3069,6 +3125,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c58_pointers_and_arrays.c
 ```
 /*
@@ -3130,6 +3187,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c59_pointers_and_arrays.c
 ```
 /*
@@ -3185,6 +3243,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c60_pointers_and_arrays.c
 ```
 /*
@@ -3234,6 +3293,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c61_pointers_and_structures.c
 ```
 /*
@@ -3293,6 +3353,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c62_pointers_and_structures.c
 ```
 /*
@@ -3364,6 +3425,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c63_linked_list.c
 ```
 /*
@@ -3439,6 +3501,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c64_linked_list.c
 ```
 /*
@@ -3510,6 +3573,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c65_linked_list.c
 ```
 /*
@@ -3594,6 +3658,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c66_linked_list.c
 ```
 /*
@@ -3674,6 +3739,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c67_linked_list.c
 ```
 /*
@@ -3767,6 +3833,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c68_tree.c
 ```
 /*
@@ -3859,6 +3926,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c69_strings.c
 ```
 /*
@@ -3904,6 +3972,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c70_strings.c
 ```
 /*
@@ -3949,6 +4018,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c71_strings.c
 ```
 /*
@@ -4001,6 +4071,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c72_strings.c
 ```
 /*
@@ -4053,6 +4124,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c73_strings.c
 ```
 /*
@@ -4105,6 +4177,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c74_strings.c
 ```
 /*
@@ -4159,6 +4232,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c75_strings.c
 ```
 /*
@@ -4211,6 +4285,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c76_strings.c
 ```
 /*
@@ -4282,6 +4357,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c77_strings.c
 ```
 /*
@@ -4340,6 +4416,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c78_strings.c
 ```
 /*
@@ -4406,6 +4483,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c79_strings.c
 ```
 /*
@@ -4466,6 +4544,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c80_strings.c
 ```
 /*
@@ -4548,6 +4627,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c81_terminal_io.c
 ```
 /*
@@ -4590,6 +4670,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c82_terminal_io.c
 ```
 /*
@@ -4649,6 +4730,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c83_terminal_io.c
 ```
 /*
@@ -4695,6 +4777,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c84_terminal_io.c
 ```
 /*
@@ -4742,6 +4825,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c85_terminal_io.c
 ```
 /*
@@ -4789,6 +4873,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c86_terminal_io.c
 ```
 /*
@@ -4842,6 +4927,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c87_file_io.c
 ```
 /*
@@ -4888,6 +4974,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c88_file_io.c
 ```
 /*
@@ -4936,6 +5023,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c89_file_io.c
 ```
 /*
@@ -4990,6 +5078,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c90_file_io.c
 ```
 /*
@@ -5065,6 +5154,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c91_file_io.c
 ```
 /*
@@ -5118,6 +5208,7 @@ int main(void) {
     return 0;
 }
 
+```
 #Nombre del Archivo: c92_file_io.c
 ```
 /*
@@ -5186,6 +5277,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
+```
 #Nombre del Archivo: c93_file_io.c
 ```
 /*
@@ -5253,6 +5345,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
+```
 #Nombre del Archivo: c94_file_io.c
 ```
 /*
@@ -5316,6 +5409,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
+```
 #Nombre del Archivo: c95_file_io.c
 ```
 /*
@@ -5576,6 +5670,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
+```
 #Nombre del Archivo: c96_pthreads.c
 ```
 /*
@@ -5642,6 +5737,7 @@ int main (int argc, char *argv[])
     pthread_exit(NULL);
 }
 
+```
 #Nombre del Archivo: c97_pthreads.c
 ```
 /*
@@ -5724,6 +5820,7 @@ int main (int argc, char *argv[])
     pthread_exit(NULL);
 }
 
+```
 #Nombre del Archivo: c98_pthreads.c
 ```
 /*
@@ -5828,6 +5925,7 @@ int main (int argc, char *argv[])
     pthread_exit(NULL);
 }
 
+```
 #Nombre del Archivo: c99_pthreads.c
 ```
 /*
@@ -5954,6 +6052,7 @@ int main (int argc, char *argv[])
     pthread_exit(NULL);
 }
 
+```
 #Nombre del Archivo: cA0_getpid.c
 ```
 /*
@@ -5998,6 +6097,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
+```
 #Nombre del Archivo: cA1_getppid.c
 ```
 /*
@@ -6043,6 +6143,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
+```
 #Nombre del Archivo: cA2_fork.c
 ```
 /*
@@ -6104,6 +6205,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
+```
 #Nombre del Archivo: cA3_fork_exec.c
 ```
 /*
@@ -6171,6 +6273,7 @@ int main(int argc, char **argv)
     }
 }
 
+```
 #Nombre del Archivo: cA4_fork_exec.c
 ```
 /*
@@ -6241,6 +6344,7 @@ int main(int argc, char **argv)
         return 0;
 }
 
+```
 #Nombre del Archivo: cA5_thread_join.c
 ```
 /*
@@ -6308,3 +6412,4 @@ int main (int argc, char *argv[])
     return 0;
 }
 
+```
