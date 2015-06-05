@@ -20,7 +20,11 @@ Expresiones Regulares
 2. curl http://pi.karmona.com/|sed 's/<BR>//g' > pi.txt
 
 # GNUPlot
-+ set datafle separator ""
-+ plot "archivo.csv" using C1:C2
-+ type set to '<aqua/dumb/etc>'
++`set datafle separator ""`
++ `plot "archivo.csv" using C1:C2`
++ `type set to '<aqua/dumb/etc>'`
+
+# Clase 5 Junio: C
++En GNUplot `set view equal xyz` para que quede simetrica una gráfica en 3D
++
 
