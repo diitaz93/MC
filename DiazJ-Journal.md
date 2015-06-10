@@ -28,3 +28,30 @@ Expresiones Regulares
 +En GNUplot `set view equal xyz` para que quede simetrica una gráfica en 3D
 +
 
+#Clase 9 Junio: Make
+"Anyhing worth repeang is worth automating"
+*Make ayuda a organizar la manera en la que se actualiza la versión de un
+archivo que depende de otros archivos.
+
+
+#*Ideas Proyecto*
+Usando grep y sed, se puede obtener la cadena complementaria de DNA
+a partir de una cadena inicial, debido a la complementaridad de las
+bases nitrogenadas
+
+#Clase 10 Junio: Figuras de **Lissajous**
+```
+A=1
+B=1
+a=1
+b=1
+t=linspace(0,2*pi,1000)
+figure(figsize=(15,15))
+for i in range (25):
+    subplot(5,5,i+1)
+    axis("off")
+    plot(A*sin((a*i+1)*t),B*cos((b*i)*t))
+show()
+```
+
+![alt tag](https://github.com/diitaz93/MC/blob/master/hands_on/lissajous.png)
