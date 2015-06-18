@@ -55,3 +55,21 @@ show()
 ```
 
 ![alt tag](https://github.com/diitaz93/MC/blob/master/hands_on/lissajous.png)
+
+#Clase 16 Junio: Interpolación
+
+Para unir k+1 puntos, se necesita un polinomio de grado k
+
+#Clase 17 Junio
+*Repaso Git/ Crear Ramas
++Crear un repositorio; ´git init´ en la carpeta
++git -log -> historial
++git commit -m mensaje
++git checkout <hash> -> Version especifica
++git status
++git branch -> muestra la rama actual
++git branch rama 1 -> crea la rama 1
+Se cambia de rama con checkout
++git merge <nombre_de_la_rama_a_integar>
+
+
