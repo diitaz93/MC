@@ -72,4 +72,16 @@ Para unir k+1 puntos, se necesita un polinomio de grado k
 Se cambia de rama con checkout
 +git merge <nombre_de_la_rama_a_integar>
 
-
+#Interpolación
+*`poly1d`-> crea un polinomio
+	le entra por parametro un arreglo de coeficientes
+	`poly1d([1,2,3])` que forman el polinomio
+	$x^2+2x+3$
+	Si su segundo argumento es 'True', las entradas del arreglo
+	se convierten en las raices del polinomo
+*Interpolate
+Se importa de scipy, interpolate y en ella la funcion `interp1d`
+Le entran por parámetro el arreglo en x, el arreglo en y y el tipo (cubico, lineal, etc)
+`func=interpolate.interp1d(x,y,kind='cubic')`
+Ahora la función le entra un arreglo de abscisas para interpolar:
+`newy=func(newx)`
