@@ -88,3 +88,13 @@ Ahora la función le entra un arreglo de abscisas para interpolar:
 
 #Integración
 funcion `quad` de scipy
+
+#Derivación numérica
+*Forward difference (con el dato siguiente)-> Error de 1 grado
+*Backward difference (con el dato anterior) -> Error de 1 grado
+*Central difference (con el dato anterior y el siguiente)-> Error de 2 grado
+
+#Hands-on 10
+
+![alt tag](https://raw.githubusercontent.com/diitaz93/MC/master/hands_on/solar.png)
+A simple vista se puede ver que el periodo de manchas solares es de aproximadamente 10 años
