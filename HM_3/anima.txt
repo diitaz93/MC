@@ -1,0 +1,44 @@
+Experimento 1 - Distribución de velocidades de Maxwell - Boltzmann 2D
+
+Introducción:
+
+Del libro The Art of Molecular Dynamics Simulation de Rapaport, se usó un código que simula un gas de discos suaves que interactúan de acuerdo al potencial de Lennard Jones truncado. El potencial de Lennard Jones es un modelo matemático sencillo para representar el comportamiento de un par de átomos o moléculas neutras. Este comportamiento esta descrito por dos fuerzas distintas en el límite de una gran separación: una fuerza atractiva actúa a grandes distancias
+
+
+%pylab inline
+from matplotlib import animation
+from scipy.optimize import curve_fit
+
+coreo=genfromtxt("/usuarios/homenfs3/sj.gonzalez10/metodos/clase/10-06/artmdsim2/src/MB/Rayleigh.csv",delimiter=",")
+x= coreo[:,0]
+y= coreo[:,1]
+vx= coreo[:,2]
+vy= coreo[:,3]
+
+figure (figsize =  (10,10))
+elhisto= hist(((vx[-1600:])**2 + (vy[-1600:])**2)**(0.5), bins=50, normed = "True")
+show()
+
+
+y=elhisto[0]
+x=elhisto[1]
+x=x[0:50]
+
+def distribucion(x,s):
+    return (x/s**2)*exp(-x**2/(2*(s**2)))
+
+s, error = curve_fit(distribucion,x,y)
+#Parametros para el fit:
+xf= linspace(0, 3, 50)
+yf= distribucion(xf,s)
+hist(((vx[-1600:])**2 + (vy[-1600:])**2)**(0.5), bins=50, normed = "True")
+plot(xf, yf)
+
+for i in range(1600):
+    #print i
+    plot (x[i*1600:(i+1)*1600],y[i*1600:(i+1)*1600] , "ok", ms=3)
+    savefig(str(i) + ".png")
+#Convertir a gif una imagen: convert -delay 10 -loop 0 *.png anima.gif
+
+
+

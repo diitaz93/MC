@@ -85,3 +85,6 @@ Le entran por parámetro el arreglo en x, el arreglo en y y el tipo (cubico, lin
 `func=interpolate.interp1d(x,y,kind='cubic')`
 Ahora la función le entra un arreglo de abscisas para interpolar:
 `newy=func(newx)`
+
+#Integración
+funcion `quad` de scipy
