@@ -98,3 +98,12 @@ funcion `quad` de scipy
 
 ![alt tag](https://raw.githubusercontent.com/diitaz93/MC/master/hands_on/solar.png)
 A simple vista se puede ver que el periodo de manchas solares es de aproximadamente 10 años
+
+#Clase 24 Junio: Integración numérica
+*Conociendo dos valores de la función:
+se aproxima la funcion entre los dos puntos por una linea recta y se btiene el area del trapecio
+
+*Metodo de simpson:
+se interpolan los puntos (3) con una función de grado 2
+
+
