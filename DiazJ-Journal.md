@@ -107,3 +107,5 @@ se aproxima la funcion entre los dos puntos por una linea recta y se btiene el a
 se interpolan los puntos (3) con una función de grado 2
 
 
+#Ecuaciones diferenciales ordinarias
+
