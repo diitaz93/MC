@@ -113,7 +113,7 @@ Runge-Kuta
 
 Método Adaptativo:
 
-$E_{local}=frac{|Y_{\Delta t/2}-Y{\Delta t}|}{30}$
+$$E_{local}=frac{|Y_{\Delta t/2}-Y{\Delta t}|}{30}$$
 
 Multistep Methods
 
