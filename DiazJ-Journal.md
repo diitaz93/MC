@@ -109,3 +109,24 @@ se interpolan los puntos (3) con una función de grado 2
 
 #Ecuaciones diferenciales ordinarias
 
+Runge-Kuta
+
+Método Adaptativo:
+
+$E_{local}=frac{|Y_{\Delta t/2}-Y{\Delta t}|}{30}$
+
+Multistep Methods
+
+Adams Bashfort
+`odeint` de `scipy.integrate`
+funcion,cond iniciales, tiempo
+
+Atractor de Lorentz (Ecuaciones de Lorentz)
+Es un sistema de ED no lineales
+
+
+
+
+
+
+
