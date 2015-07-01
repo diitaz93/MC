@@ -8,11 +8,11 @@ Herramientas del Curso:
 + y Python
 
 y los métodos a estudiar son:
-1. Interpolación,
-2. Análisis de Fourier,
-3. Diferenciación e integración numéricas,
-4. Ecuaciones diferenciales ordinarias y parciales
-5. Método de MonteCarlo
+1. Interpolación,<BR>
+2. Análisis de Fourier,<BR>
+3. Diferenciación e integración numéricas,<BR>
+4. Ecuaciones diferenciales ordinarias y parciales,<BR>
+5. Método de MonteCarlo.<BR>
 
 #Segunda Clase 2-Jun-2015
 Expresiones Regulares<BR>
