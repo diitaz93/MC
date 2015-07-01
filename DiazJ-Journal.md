@@ -15,15 +15,9 @@ y los métodos a estudiar son:
 5. Método de MonteCarlo
 
 #Segunda Clase 2-Jun-2015
-<<<<<<< HEAD
 Expresiones Regulares<BR>
 1. `^.... `<BR>
 3. `curl http://pi.karmona.com/|sed 's/<BR>//g' > pi.txt`<BR>
-=======
-Expresiones Regulares
-1. '^.... '\n
-2. curl http://pi.karmona.com/|sed 's/<BR>//g' > pi.txt
->>>>>>> bd2a827c9e82cc5bd7b13a54f12f5e3078f74a1d
 
 GNUPlot<BR>
 + `set datafle separator ""`
