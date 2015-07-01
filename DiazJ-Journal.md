@@ -16,7 +16,7 @@ y los métodos a estudiar son:
 
 #Segunda Clase 2-Jun-2015
 Expresiones Regulares
-1. '^.... '
+1. '^.... '\n
 2. curl http://pi.karmona.com/|sed 's/<BR>//g' > pi.txt
 
 # GNUPlot
