@@ -57,6 +57,7 @@ a partir de una cadena inicial, debido a la complementaridad de las
 bases nitrogenadas
 
 #Clase 10 Junio: Figuras de *Lissajous*
+**Hands On**
 ```
 A=1
 B=1
@@ -75,7 +76,7 @@ show()
 
 #Clase 16 Junio: Interpolación
 
-Para unir k+1 puntos, se necesita un polinomio de grado k<BR>
+**Lagrange:** Para unir k+1 puntos, se necesita un polinomio de grado k<BR>
 
 **Hands On**<BR>
 Campo Magnético: Ajuste por mínimos cuadrados<BR>
@@ -85,7 +86,7 @@ Campo Magnético: Ajuste por mínimos cuadrados<BR>
 **Proyecto Final:** La interpolación podria ser util, teniendo datos de valores de acciones de cada año, se puede estimar el valor de las acciones por mes.
 
 #Clase 17 Junio
-Repaso Git/ Crear Ramas<BR>
+**Repaso Git/ Crear Ramas**<BR>
 + Crear un repositorio; ´git init´ en la carpeta
 + git -log -> historial
 + git commit -m mensaje
@@ -97,12 +98,7 @@ Repaso Git/ Crear Ramas<BR>
 + git merge <nombre_de_la_rama_a_integar>
 
 **Interpolación**
-* `poly1d`-> crea un polinomio
-	le entra por parametro un arreglo de coeficientes
-	`poly1d([1,2,3])` que forman el polinomio
-	\\[x^2+2x+3\\].<BR>
-	Si su segundo argumento es 'True', las entradas del arreglo
-	se convierten en las raices del polinomio.<BR>
+* `poly1d`-> crea un polinomio le entra por parametro un arreglo de coeficientes `poly1d([1,2,3])` que forman el polinomio \[x^2+2x+3\].Si su segundo argumento es 'True', las entradas del arreglo se convierten en las raices del polinomio.<BR>
 * *Interpolate*:<BR>
 Se importa de scipy, interpolate y en ella la funcion `interp1d`.<BR>
 Le entran por parámetro el arreglo en x, el arreglo en y y el tipo (cubico, lineal, etc)
@@ -114,62 +110,60 @@ Ahora la función le entra un arreglo de abscisas para interpolar:
 funcion `quad` de scipy
 
 * *Derivación numérica:*<BR>
-+ Forward difference (con el dato siguiente)-> Error de 1 grado.<BR>
-+ Backward difference (con el dato anterior) -> Error de 1 grado.<BR>
-+ Central difference (con el dato anterior y el siguiente)-> Error de 2 grado.<BR>
+	+ Forward difference (con el dato siguiente)-> Error de 1 grado.<BR>
+	+ Backward difference (con el dato anterior) -> Error de 1 grado.<BR>
+	+ Central difference (con el dato anterior y el siguiente)-> Error de 2 grado.<BR>
 
-#Hands-on 10
+#Clase 23 de Junio
+**Hands On**<BR>
 
 ![alt tag](https://raw.githubusercontent.com/diitaz93/MC/master/hands_on/solar.png)
 A simple vista se puede ver que el periodo de manchas solares es de aproximadamente 10 años
 
-#Clase 24 Junio: Integración numérica
-*Conociendo dos valores de la función:
+#Clase 24 Junio
+**Integración numérica**<BR>
+* Conociendo dos valores de la función:<BR>
 se aproxima la funcion entre los dos puntos por una linea recta y se btiene el area del trapecio
 
-*Metodo de simpson:
+* Metodo de simpson:
 se interpolan los puntos (3) con una función de grado 2
 
 
-#Ecuaciones diferenciales ordinarias
+**Ecuaciones diferenciales ordinarias**<BR>
 
-Runge-Kuta
++ Runge-Kuta
++ Método Adaptativo:
+\[E_{local}=frac{|Y_{\Delta t/2}-Y{\Delta t}|}{30}\]
 
-Método Adaptativo:
++ Multistep Methods
 
-$$E_{local}=frac{|Y_{\Delta t/2}-Y{\Delta t}|}{30}$$
-
-Multistep Methods
-
-Adams Bashfort
++ Adams Bashfort
 
 **Usar odeint**
 `odeint` es una función de `scipy.integrate` que arroja una matriz, cuyas columnas
-son los arreglos solución de cada una de las variables.
+son los arreglos solución de cada una de las variables.<BR>
 le entra como parámetros una funcion `func`, la cual es un arreglo
-cuyas entradas son las ecuaciones diferenciales del sistema.
+cuyas entradas son las ecuaciones diferenciales del sistema.<BR>
 Las variables de las ecuaciones (x,y,z) se pueden ingresar como entradas de un arreglo de variables
 Y, donde Y[0], Y[1], Y[2] corresponderian a x,y,z respectivamente, o a cualquier
-tipo de coordenadas.
-El siguiente parámetro es un arreglo con las condiciones iniciales de las variables.
+tipo de coordenadas.<BR>
+El segundo parámetro es un arreglo con las condiciones iniciales de las variables.<BR>
 El tercer parámetro es un arreglo de tiempos en los que se resuelve el sistema
-de ecuaciones diferenciales.
+de ecuaciones diferenciales.<BR>
 
 
-Atractor de Lorentz (Ecuaciones de Lorentz)
++ Atractor de Lorentz (Ecuaciones de Lorentz)
 Es un sistema de ED no lineales
 
-#Calculos simbólicos
-
-Definir Variables simbólicas: `x=symbols('x')`
-Imprime "bonitas" las ecuaciones:
-
-`init_printing(use_unicode=True)`
-derivar:`diff(<function>,<variable>)`
-integrar: `integrate(<function>,(<variable>,<liminf>,<limsup>))`
-reducir a una expresion más simple: `symplify(<expression>)`
-
 #Clase 7-1/2015
+**Calculos simbólicos**<BR>
+
++ Definir Variables simbólicas: `x=symbols('x')`
++ Imprime "bonitas" las ecuaciones: `init_printing(use_unicode=True)`
++ derivar:`diff(<function>,<variable>)`
++ integrar: `integrate(<function>,(<variable>,<liminf>,<limsup>))`
++ reducir a una expresion más simple: `symplify(<expression>)`
+
 **Hands On**<BR>
 Adams-Bashforth ordenes 2, 3 y 4.<BR>
 Para Orden 2:<BR>
