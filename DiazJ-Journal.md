@@ -15,12 +15,12 @@ y los métodos a estudiar son:
 5. Método de MonteCarlo
 
 #Segunda Clase 2-Jun-2015
-Expresiones Regulares
-1. '^.... '
-2. curl http://pi.karmona.com/|sed 's/<BR>//g' > pi.txt
+Expresiones Regulares<BR>
+1. `^.... `<BR>
+3. `curl http://pi.karmona.com/|sed 's/<BR>//g' > pi.txt`<BR>
 
-# GNUPlot
-+`set datafle separator ""`
+GNUPlot<BR>
++ `set datafle separator ""`
 + `plot "archivo.csv" using C1:C2`
 + `type set to '<aqua/dumb/etc>'`
 
@@ -118,11 +118,34 @@ $E_{local}=frac{|Y_{\Delta t/2}-Y{\Delta t}|}{30}$
 Multistep Methods
 
 Adams Bashfort
-`odeint` de `scipy.integrate`
-funcion,cond iniciales, tiempo
+
+**Usar odeint**
+`odeint` es una función de `scipy.integrate` que arroja una matriz, cuyas columnas
+son los arreglos solución de cada una de las variables.
+le entra como parámetros una funcion `func`, la cual es un arreglo
+cuyas entradas son las ecuaciones diferenciales del sistema.
+Las variables de las ecuaciones (x,y,z) se pueden ingresar como entradas de un arreglo de variables
+Y, donde Y[0], Y[1], Y[2] corresponderian a x,y,z respectivamente, o a cualquier
+tipo de coordenadas.
+El siguiente parámetro es un arreglo con las condiciones iniciales de las variables.
+El tercer parámetro es un arreglo de tiempos en los que se resuelve el sistema
+de ecuaciones diferenciales.
+
 
 Atractor de Lorentz (Ecuaciones de Lorentz)
 Es un sistema de ED no lineales
+
+#Calculos simbólicos
+
+Definir Variables simbólicas: `x=symbols('x')`
+Imprime "bonitas" las ecuaciones:
+
+`init_printing(use_unicode=True)`
+derivar:`diff(<function>,<variable>)`
+integrar: `integrate(<function>,(<variable>,<liminf>,<limsup>))`
+reducir a una expresion más simple: `symplify(<expression>)`
+
+
 
 
 
