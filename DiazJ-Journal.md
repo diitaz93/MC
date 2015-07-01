@@ -15,26 +15,41 @@ y los métodos a estudiar son:
 5. Método de MonteCarlo.<BR>
 
 #Segunda Clase 2-Jun-2015
-Expresiones Regulares<BR>
-1. `^.... `<BR>
-3. `curl http://pi.karmona.com/|sed 's/<BR>//g' > pi.txt`<BR>
 
 GNUPlot<BR>
 + `set datafle separator ""`
 + `plot "archivo.csv" using C1:C2`
 + `type set to '<aqua/dumb/etc>'`
 
-# Clase 5 Junio: C
-+En GNUplot `set view equal xyz` para que quede simetrica una gráfica en 3D
-+
+**Hands On**<BR>
 
-#Clase 9 Junio: Make
-"Anyhing worth repeang is worth automating"
-*Make ayuda a organizar la manera en la que se actualiza la versión de un
+Expresiones Regulares<BR>
+1. `^.... `<BR>
+3. `curl http://pi.karmona.com/|sed 's/<BR>//g' > pi.txt`<BR>
+
+GNUPlot<BR>
+```
+gnuplot<<EOF
+set terminal dumb
+set datafile separator "",""
+plot $1 using $2:$3
+EOF
+```
+
+# Clase 5 Junio: C
+
++En GNUplot `set view equal xyz` para que quede simetrica una gráfica en 3D<BR>
+**Hands On**<BR>
+*"Anyhing worth repeang is worth automating"*<BR>
+Make ayuda a organizar la manera en la que se actualiza la versión de un
 archivo que depende de otros archivos.
 
+#Clase 9 Junio: Make
+**Make:**
+Gestión de Dependencias: Existen en los archivos que componen el código fuente de un programa.<BR>
+Dirige la generación automática de ciertos aspectos de un programa.<BR>
 
-#*Ideas Proyecto*
+#Ideas Proyecto
 Usando grep y sed, se puede obtener la cadena complementaria de DNA
 a partir de una cadena inicial, debido a la complementaridad de las
 bases nitrogenadas
@@ -58,7 +73,14 @@ show()
 
 #Clase 16 Junio: Interpolación
 
-Para unir k+1 puntos, se necesita un polinomio de grado k
+Para unir k+1 puntos, se necesita un polinomio de grado k<BR>
+
+**Hands On**
+Campo Magnético:Ajuste por mínimos cuadrados<BR>
+![alt tag](https://raw.githubusercontent.com/diitaz93/MC/master/hands_on/a.png)
+![alt tag](https://raw.githubusercontent.com/diitaz93/MC/master/hands_on/b.png)
+
+Proyecto Final: La interpolación podria ser util, teniendo datos de valores de acciones de cada año, se puede estimar el valor de las acciones por mes.
 
 #Clase 17 Junio
 *Repaso Git/ Crear Ramas
