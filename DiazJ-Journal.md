@@ -7,7 +7,7 @@ Herramientas del Curso:
 + C,
 + y Python
 
-y los métodos a estudiar son:
+y los métodos a estudiar son:<BR>
 1. Interpolación,<BR>
 2. Análisis de Fourier,<BR>
 3. Diferenciación e integración numéricas,<BR>
@@ -45,7 +45,7 @@ Make ayuda a organizar la manera en la que se actualiza la versión de un
 archivo que depende de otros archivos.
 
 #Clase 9 Junio: Make
-**Make:**
+**Make:**<BR>
 Gestión de Dependencias: Existen en los archivos que componen el código fuente de un programa.<BR>
 Dirige la generación automática de ciertos aspectos de un programa.<BR>
 
@@ -75,7 +75,7 @@ show()
 
 Para unir k+1 puntos, se necesita un polinomio de grado k<BR>
 
-**Hands On**
+**Hands On**<BR>
 Campo Magnético:Ajuste por mínimos cuadrados<BR>
 ![alt tag](https://raw.githubusercontent.com/diitaz93/MC/master/hands_on/a.png)
 ![alt tag](https://raw.githubusercontent.com/diitaz93/MC/master/hands_on/b.png)
@@ -167,8 +167,38 @@ derivar:`diff(<function>,<variable>)`
 integrar: `integrate(<function>,(<variable>,<liminf>,<limsup>))`
 reducir a una expresion más simple: `symplify(<expression>)`
 
-
-
+#Clase 7-1/2015
+**Hands On**<BR>
+Adams-Bashforth ordenes 2, 3 y 4.<BR>
+Para Orden 2:<BR>
+```
+%pylab inline
+from sympy import *
+t,fn,fn1,h,tn,tn1=symbols('t fn fn1 h tn tn1')
+tn1=tn-h
+F2=fn1*(t-tn)/(tn1-tn)+fn*(t-tn1)/(tn-tn1)
+simplify(integrate(F2,(t,tn,tn+h)))
+```
+Orden 3:<BR>
+```
+#Orden 3
+t,fn,fn1,fn2,h,tn,tn1,tn2=symbols('t fn fn1 fn2 h tn tn1 tn2')
+tn1=tn-h
+tn2=tn-2*h
+F3=fn*(t-tn1)/(tn-tn1)*(t-tn2)/(tn-tn2)+fn1*(t-tn)/(tn1-tn)*(t-tn2)/(tn1-tn2)+fn2*(t-tn)/(tn2-tn)*(t-tn1)/(tn2-tn1)
+simplify(integrate(F3,(t,tn,tn+h)))
+```
+Orden 4:<BR>
+```
+#Orden 4
+t,fn,fn1,fn2,fn3,h,tn,tn1,tn2,tn3=symbols('t fn fn1 fn2 fn3 h tn tn1 tn2 tn3')
+tn1=tn-h
+tn2=tn-2*h
+tn3=tn-3*h
+F4=fn*(t-tn1)/(tn-tn1)*(t-tn2)/(tn-tn2)*(t-tn3)/(tn-tn3)+fn1*(t-tn)/(tn1-tn)*(t-tn2)/(tn1-tn2)*(t-tn3)/(tn1-tn3)+fn2*(t-tn)/(tn2-tn)*(t-tn1)/(tn2-tn1)*(t-tn3)/(tn2-tn3)+fn3*(t-tn)/(tn3-tn)*(t-tn1)/(tn3-tn1)*(t-tn2)/(tn3-tn2)
+simplify(integrate(F4,(t,tn,tn+h)))
+```
+Los resultados concuerdan con los del libro.
 
 
 
