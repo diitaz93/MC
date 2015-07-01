@@ -98,7 +98,7 @@ Campo Magnético: Ajuste por mínimos cuadrados<BR>
 + git merge <nombre_de_la_rama_a_integar>
 
 **Interpolación**
-* `poly1d`-> crea un polinomio le entra por parametro un arreglo de coeficientes `poly1d([1,2,3])` que forman el polinomio \[x^2+2x+3\].Si su segundo argumento es 'True', las entradas del arreglo se convierten en las raices del polinomio.<BR>
+* `poly1d`-> crea un polinomio le entra por parametro un arreglo de coeficientes `poly1d([1,2,3])` que forman el polinomio $x^2+2x+3$.Si su segundo argumento es 'True', las entradas del arreglo se convierten en las raices del polinomio.<BR>
 * *Interpolate*:<BR>
 Se importa de scipy, interpolate y en ella la funcion `interp1d`.<BR>
 Le entran por parámetro el arreglo en x, el arreglo en y y el tipo (cubico, lineal, etc)
@@ -114,7 +114,7 @@ funcion `quad` de scipy
 	+ Backward difference (con el dato anterior) -> Error de 1 grado.<BR>
 	+ Central difference (con el dato anterior y el siguiente)-> Error de 2 grado.<BR>
 
-#Clase 23 de Junio
+#Clase 23 de Junio: Filtros
 **Hands On**<BR>
 
 ![alt tag](https://raw.githubusercontent.com/diitaz93/MC/master/hands_on/solar.png)
@@ -125,7 +125,7 @@ A simple vista se puede ver que el periodo de manchas solares es de aproximadame
 * Conociendo dos valores de la función:<BR>
 se aproxima la funcion entre los dos puntos por una linea recta y se btiene el area del trapecio
 
-* Metodo de simpson:
+* Metodo de simpson:<BR>
 se interpolan los puntos (3) con una función de grado 2
 
 
@@ -133,16 +133,16 @@ se interpolan los puntos (3) con una función de grado 2
 
 + Runge-Kuta
 + Método Adaptativo:
-\[E_{local}=frac{|Y_{\Delta t/2}-Y{\Delta t}|}{30}\]
+$E_{local}=frac{|Y_{\Delta t/2}-Y{\Delta t}|}{30}$
 
 + Multistep Methods
 
 + Adams Bashfort
 
-**Usar odeint**
+**Usar odeint**<BR>
 `odeint` es una función de `scipy.integrate` que arroja una matriz, cuyas columnas
 son los arreglos solución de cada una de las variables.<BR>
-le entra como parámetros una funcion `func`, la cual es un arreglo
+Le entra como parámetros una funcion `func`, la cual es un arreglo
 cuyas entradas son las ecuaciones diferenciales del sistema.<BR>
 Las variables de las ecuaciones (x,y,z) se pueden ingresar como entradas de un arreglo de variables
 Y, donde Y[0], Y[1], Y[2] corresponderian a x,y,z respectivamente, o a cualquier
