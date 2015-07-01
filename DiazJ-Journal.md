@@ -39,22 +39,24 @@ EOF
 # Clase 5 Junio: C
 
 +En GNUplot `set view equal xyz` para que quede simetrica una gráfica en 3D<BR>
+
 **Hands On**<BR>
 *"Anyhing worth repeang is worth automating"*<BR>
 Make ayuda a organizar la manera en la que se actualiza la versión de un
 archivo que depende de otros archivos.
 
 #Clase 9 Junio: Make
-**Make:**<BR>
+
+**Hands On:Make:**<BR>
 Gestión de Dependencias: Existen en los archivos que componen el código fuente de un programa.<BR>
 Dirige la generación automática de ciertos aspectos de un programa.<BR>
 
-#Ideas Proyecto
+**Ideas Proyecto**<BR>
 Usando grep y sed, se puede obtener la cadena complementaria de DNA
 a partir de una cadena inicial, debido a la complementaridad de las
 bases nitrogenadas
 
-#Clase 10 Junio: Figuras de **Lissajous**
+#Clase 10 Junio: Figuras de *Lissajous*
 ```
 A=1
 B=1
@@ -76,45 +78,45 @@ show()
 Para unir k+1 puntos, se necesita un polinomio de grado k<BR>
 
 **Hands On**<BR>
-Campo Magnético:Ajuste por mínimos cuadrados<BR>
+Campo Magnético: Ajuste por mínimos cuadrados<BR>
 ![alt tag](https://raw.githubusercontent.com/diitaz93/MC/master/hands_on/a.png)
 ![alt tag](https://raw.githubusercontent.com/diitaz93/MC/master/hands_on/b.png)
 
-Proyecto Final: La interpolación podria ser util, teniendo datos de valores de acciones de cada año, se puede estimar el valor de las acciones por mes.
+**Proyecto Final:** La interpolación podria ser util, teniendo datos de valores de acciones de cada año, se puede estimar el valor de las acciones por mes.
 
 #Clase 17 Junio
-*Repaso Git/ Crear Ramas
-+Crear un repositorio; ´git init´ en la carpeta
-+git -log -> historial
-+git commit -m mensaje
-+git checkout <hash> -> Version especifica
-+git status
-+git branch -> muestra la rama actual
-+git branch rama 1 -> crea la rama 1
-Se cambia de rama con checkout
-+git merge <nombre_de_la_rama_a_integar>
+Repaso Git/ Crear Ramas<BR>
++ Crear un repositorio; ´git init´ en la carpeta
++ git -log -> historial
++ git commit -m mensaje
++ git checkout <hash> -> Version especifica
++ git status
++ git branch -> muestra la rama actual
++ git branch rama 1 -> crea la rama 1
++ Se cambia de rama con checkout
++ git merge <nombre_de_la_rama_a_integar>
 
-#Interpolación
-*`poly1d`-> crea un polinomio
+**Interpolación**
+* `poly1d`-> crea un polinomio
 	le entra por parametro un arreglo de coeficientes
 	`poly1d([1,2,3])` que forman el polinomio
-	$x^2+2x+3$
+	\\[x^2+2x+3\\].<BR>
 	Si su segundo argumento es 'True', las entradas del arreglo
-	se convierten en las raices del polinomo
-*Interpolate
-Se importa de scipy, interpolate y en ella la funcion `interp1d`
+	se convierten en las raices del polinomio.<BR>
+* *Interpolate*:<BR>
+Se importa de scipy, interpolate y en ella la funcion `interp1d`.<BR>
 Le entran por parámetro el arreglo en x, el arreglo en y y el tipo (cubico, lineal, etc)
-`func=interpolate.interp1d(x,y,kind='cubic')`
+`func=interpolate.interp1d(x,y,kind='cubic')`.<BR>
 Ahora la función le entra un arreglo de abscisas para interpolar:
-`newy=func(newx)`
+`newy=func(newx)`.<BR>
 
-#Integración
+* *Integración:* 
 funcion `quad` de scipy
 
-#Derivación numérica
-*Forward difference (con el dato siguiente)-> Error de 1 grado
-*Backward difference (con el dato anterior) -> Error de 1 grado
-*Central difference (con el dato anterior y el siguiente)-> Error de 2 grado
+* *Derivación numérica:*<BR>
++ Forward difference (con el dato siguiente)-> Error de 1 grado.<BR>
++ Backward difference (con el dato anterior) -> Error de 1 grado.<BR>
++ Central difference (con el dato anterior y el siguiente)-> Error de 2 grado.<BR>
 
 #Hands-on 10
 
