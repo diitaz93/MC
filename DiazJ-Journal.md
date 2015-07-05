@@ -196,6 +196,10 @@ simplify(integrate(F4,(t,tn,tn+h)))
 ```
 Los resultados concuerdan con los del libro.
 
+#Clase 3 de Julio: Ecuaciones en Derivadas Parciales
+
+Se discretiza el espacio por un lado y el tiempo por otro lado<BR>
+
 
 
 
