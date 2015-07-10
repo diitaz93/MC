@@ -200,6 +200,10 @@ Los resultados concuerdan con los del libro.
 
 Se discretiza el espacio por un lado y el tiempo por otro lado<BR>
 
+#Clase 7 de Julio: Ecuación de onda, poisson y laplace
+
+$\Delta x -> x_i=x_0+i\Delta x$
+
 
 
 
